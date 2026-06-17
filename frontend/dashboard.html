@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Productivity Manager - Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-title">Productivity Manager</div>
+  </nav>
+
+  <main class="dashboard">
+    <header class="dashboard-header">
+      <div class="welcome-message">
+        <h1>Welcome back!</h1>
+        <p>Here are your tasks for today.</p>
+      </div>
+
+      <button type="button" class="add-task-button" id="addTaskButton">Add Task</button>
+    </header>
+
+    <section class="task-grid" id="taskGrid">
+      <article class="task-card">
+        <h2>Complete Project Report</h2>
+        <p><strong>Deadline:</strong> 25 May 2026</p>
+        <p><strong>Priority:</strong> <span class="priority-high">High</span></p>
+        <p><strong>Status:</strong> <span class="status status-progress">In Progress</span></p>
+        <button class="complete-button">Complete<button>
+        <button class="delete-button">Delete</button>
+        </article>
+
+      <article class="task-card">
+        <h2>Prepare Meeting Notes</h2>
+        <p><strong>Deadline:</strong> 27 May 2026</p>
+        <p><strong>Priority:</strong> <span class="priority-medium">Medium</span></p>
+        <p><strong>Status:</strong> <span class="status status-pending">Pending</span></p>
+        <button class="complete-button">Complete</button>
+        <button class="delete-button">Delete</button>
+      </article>
+
+      <article class="task-card">
+        <h2>Submit Assignment</h2>
+        <p><strong>Deadline:</strong> 30 May 2026</p>
+        <p><strong>Priority:</strong> <span class="priority-low">Low</span></p>
+        <p><strong>Status:</strong> <span class="status status-completed">Completed</span></p>
+        <button class="complete-button">Complete</button>     
+        <button class="delete-button">Delete</button>      
+      </article>
+    </section>
+  </main>
+  <script src="script.js"></script>
+
+</body>
+</html>
